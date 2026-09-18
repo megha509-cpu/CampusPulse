@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS mess (
     meal_type VARCHAR(50) NOT NULL,
     meal_date DATE NOT NULL,
     menu VARCHAR(500) NOT NULL,
-    rating INT,
+    rating DECIMAL(3,1),
     feedback VARCHAR(500)
 );
 
